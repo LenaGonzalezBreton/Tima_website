@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tima - La pointeuse intelligente</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <a href="#" class="logo">
+          <img src="/tima_logo.png" alt="Tima Logo" style="height: 40px; vertical-align: middle;">
+        </a>
+        <div class="nav-links">
+          <a href="#concept">Concept</a>
+          <a href="#features">Solutions</a>
+          <a href="#tech">Technologie</a>
+          <a href="#support">Support</a>
+          <a href="#contact" class="btn btn-primary">Contactez-nous</a>
+          <button id="themeToggle" class="theme-toggle" aria-label="Changer de thème">
+            ☀️
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>
+              Boostez vos <br />
+              <span class="text-gradient">Performances</span>
+            </h1>
+            <p>
+              Pilotez votre performance, pas seulement vos horaires.
+            </p>
+            <div class="hero-buttons">
+              <a href="#contact" class="btn btn-primary">Contactez-nous</a>
+              <a href="#concept" class="btn btn-secondary">En savoir plus</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="/hero.png" alt="Interface de la pointeuse Tima" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="concept" class="features" style="background: var(--bg-primary);">
+      <div class="container">
+        <div class="section-title">
+          <h2 class="text-gradient">Le Concept Tima</h2>
+          <p style="max-width: 800px; margin: 0 auto 2rem auto;">
+            TIMA est une solution logicielle intelligente de gestion du temps conçue pour transformer le pointage
+            administratif en un véritable outil de pilotage stratégique.
+          </p>
+          <p style="max-width: 800px; margin: 0 auto; color: var(--text-primary); font-size: 1.1rem;">
+            <strong>La Promesse :</strong> Réduire les frictions sociales et les erreurs de paie grâce à une interface
+            inclusive, automatisée et centrée sur l'utilisateur.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features" style="background: var(--bg-secondary); padding-top: 50px;">
+      <div class="container">
+        <div class="section-title">
+          <h2>Fonctionnalités Clés</h2>
+          <p>Une solution complète pour tous les acteurs de l'entreprise</p>
+        </div>
+
+        <div class="kpi-grid">
+          <div class="kpi-card">
+            <div class="feature-icon" style="margin: 0 auto 1rem auto;">👤</div>
+            <h3 class="kpi-label">Pour les Employés</h3>
+            <p class="kpi-desc">
+              Un tableau de bord personnel pour badger en un clic, suivre ses heures en temps réel et visualiser sa
+              propre productivité.
+            </p>
+          </div>
+          <div class="kpi-card">
+            <div class="feature-icon" style="margin: 0 auto 1rem auto;">📈</div>
+            <h3 class="kpi-label">Pour les Managers</h3>
+            <p class="kpi-desc">
+              Une vue d'ensemble des équipes, une gestion simplifiée des plannings et l'accès à des KPI avancés pour
+              éviter la surcharge.
+            </p>
+          </div>
+          <div class="kpi-card">
+            <div class="feature-icon" style="margin: 0 auto 1rem auto;">🛡️</div>
+            <h3 class="kpi-label">Sécurité & Fiabilité</h3>
+            <p class="kpi-desc">
+              Un historique complet des modifications pour une traçabilité parfaite et une sécurisation des données aux
+              standards actuels.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tech" class="features">
+      <div class="container">
+        <div class="section-title">
+          <h2 class="text-gradient">L'Excellence Technique</h2>
+          <p>La force "Trinity" au service de votre sérénité</p>
+        </div>
+
+        <div class="feature-list">
+          <div class="feature-item">
+            <div class="feature-icon">🐳</div>
+            <h3>Disponibilité Maximale</h3>
+            <p>
+              Architecture conteneurisée (Docker) garantissant une stabilité exemplaire et une maintenance sans
+              interruption de service.
+            </p>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">📱</div>
+            <h3>Accessibilité</h3>
+            <p>
+              Une expérience utilisateur pensée pour tous les collaborateurs, quel que soit leur support (Web ou Mobile)
+              ou leur aisance numérique.
+            </p>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">🚀</div>
+            <h3>Évolutivité</h3>
+            <p>
+              Une plateforme prête à intégrer vos futurs outils (Slack, Teams) et à s'adapter à la croissance de votre
+              entreprise.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="support" style="padding: 100px 0; background: var(--bg-primary);">
+      <div class="container">
+        <div class="section-title">
+          <h2 class="text-gradient">Déjà Client ?</h2>
+          <p style="margin-bottom: 2rem;">Accédez à votre espace ou contactez le support technique.</p>
+          <div
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 2rem;">
+            <div class="kpi-card" style="padding: 1.5rem;">
+              <div class="feature-icon" style="margin: 0 auto 1rem auto;">📞</div>
+              <h3>Support Direct</h3>
+              <p style="color: var(--accent-primary); font-weight: bold; margin: 0.5rem 0;">+33 1 23 45 67 89</p>
+              <p style="font-size: 0.9rem;">support@tima.io</p>
+              <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.5rem;">Lun-Ven, 9h-18h</p>
+            </div>
+
+            <div class="kpi-card" style="padding: 1.5rem;">
+              <div class="feature-icon" style="margin: 0 auto 1rem auto;">💬</div>
+              <h3>Support Chat</h3>
+              <p style="margin-bottom: 1rem; font-size: 0.9rem;">Une question rapide ? Dialoguez avec notre assistant
+                virtuel.</p>
+              <button class="btn btn-secondary" onclick="alert('Le chatbot Tima sera bientôt disponible !')">Lancer le
+                chat</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="cta">
+      <div class="container">
+        <div class="cta-box">
+          <h2>Pourquoi choisir TIMA ?</h2>
+          <p style="margin-bottom: 2rem; color: var(--text-secondary)">
+            Choisir TIMA, c'est investir dans la sérénité opérationnelle. C'est l'assurance d'une réduction drastique du
+            temps passé sur l'administratif RH au profit de l'essentiel : l'humain et la performance.
+          </p>
+          <form id="contactForm" style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+            <input type="email" placeholder="Votre email professionnel"
+              style="padding: 0.8rem 1.5rem; border-radius: 50px; border: 1px solid var(--glass-border); background: var(--bg-primary); color: white; width: 300px;">
+            <button type="submit" class="btn btn-primary">Être recontacté</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Tima. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <!-- Chatbot Widget -->
+  <div id="chatWidget" class="chat-widget">
+    <div class="chat-header">
+      <div style="display: flex; align-items: center; gap: 0.5rem;">
+        <div class="feature-icon" style="width: 30px; height: 30px; margin: 0; font-size: 1rem;">💬</div>
+        <span style="font-weight: 600;">Assistant Tima</span>
+      </div>
+      <button id="closeChat"
+        style="background: none; border: none; color: white; cursor: pointer; font-size: 1.2rem;">&times;</button>
+    </div>
+    <div class="chat-body" id="chatBody">
+      <div class="message bot">
+        <p>Bonjour ! Je suis l'assistant Tima. Choisissez une question ou écrivez-nous :</p>
+      </div>
+      <div class="chat-suggestions" id="chatSuggestions">
+        <button class="suggestion-chip">Qu'est-ce que TIMA ?</button>
+        <button class="suggestion-chip">Pour qui ?</button>
+        <button class="suggestion-chip">Les avantages</button>
+        <button class="suggestion-chip">Architecture Technique</button>
+      </div>
+    </div>
+    <div class="chat-input">
+      <input type="text" id="chatInput" placeholder="Écrivez votre message...">
+      <button id="sendMessage" class="btn btn-primary" style="padding: 0.5rem 1rem; border-radius: 8px;">➤</button>
+    </div>
+  </div>
+  <button id="openChat" class="chat-toggle-btn">
+    💬
+  </button>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
